@@ -1,8 +1,8 @@
 import re 
 import os
-import time,tkFileDialog
-#path= r'C:\Users\Tony\data.txt'
-path = tkFileDialog.askopenfilename(initialdir = 'C:\Users\Tony')
+import time
+path= r'C:\Users\Tony\data.txt'
+
 fin=open(path, "r")
 
 
