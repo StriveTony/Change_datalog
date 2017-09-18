@@ -2,7 +2,7 @@ import re
 import os
 import time
 path= r'C:\Users\Tony\data.txt'
-
+path = tkFileDialog.askopenfilename(initialdir = 'C:\Users\')
 fin=open(path, "r")
 
 
